@@ -4,6 +4,8 @@
 
 This project demonstrates analog input/output control using an Arduino Uno. It reads analog values from a sensor (potentiometer) and uses that input to control the brightness of an LED through PWM (Pulse Width Modulation). The system also provides real-time serial monitoring of sensor values.
 
+open in [Tinkercad](https://www.tinkercad.com/things/cIvRICwDLKe-brave-snicket)
+
 ## Features
 
 - **Analog Input Reading**: Reads analog values from pin A0
@@ -71,10 +73,6 @@ This project demonstrates analog input/output control using an Arduino Uno. It r
 2. This change is read as a voltage at A0 and converted to a digital value by the ADC.
 3.The LED brightness varies proportionally with the light level—brighter environment means higher PWM value and brighter LED.
 
-## project overview
-<video src="Potentiometer-Controlled-LED-Dimmer.mp4" controls width="600"></video>
-
-open in [Tinkercad](https://www.tinkercad.com/things/cIvRICwDLKe-brave-snicket)
 
 
 ## Troubleshooting
@@ -90,6 +88,3 @@ open in [Tinkercad](https://www.tinkercad.com/things/cIvRICwDLKe-brave-snicket)
 
 
 
-## License
-
-This project code is in the public domain, based on Arduino example code by Tom Igoe.
